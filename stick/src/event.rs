@@ -346,7 +346,7 @@ impl Event {
     }
 
     #[inline(always)]
-    pub(crate) fn to_id(self) -> (u8, f64) {
+    pub fn to_id(self) -> (u8, f64) {
         use Event::*;
         match self {
             Disconnect => (0x00, f64::NAN),
