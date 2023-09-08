@@ -29,3 +29,5 @@ ActionH = "ActionV"
 # Right Grip already dubbed PinkyRight
 13 = "PaddleLeft" # Left Under
 12 = "PaddleRight" # Left Grip
+
+398 = "Home"
